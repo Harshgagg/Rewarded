@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rewarded Ad</title>
+    <script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-ca-app-pub-8244447418648514/6473247613",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+<body>
+    <h2>Watch an Ad to Earn Rewards</h2>
+    <div id="rewarded-ad" style="width:100%;height:100%;"></div>
+    <script>
+        function loadRewardedAd() {
+            var ad = document.createElement('script');
+            ad.src = "https://your-ad-network.com/your-ad-script.js"; // Replace with your actual ad script URL
+            document.getElementById('rewarded-ad').appendChild(ad);
+        }
+        loadRewardedAd();
+    </script>
+</body>
+</html>
